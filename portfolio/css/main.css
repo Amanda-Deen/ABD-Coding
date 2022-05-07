@@ -1,0 +1,112 @@
+/***** BASE STYLES *****/
+body{
+    font-family: 'Philosopher', sans-serif;
+    color: #2b2b2b;
+}
+    
+/***** GRID *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;   
+}
+    
+/***** HEADER *****/
+header{
+    height: 400px;
+    background: url('../img/portfolio_img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color: #c49075;
+    padding: 25px 0 25px 25px;
+    float: left;
+    clear: both;
+}
+nav {
+    text-align: right;
+    padding: 30px 0;
+    float: right; 
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform:uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 122 px;
+    color: #7B7A7A;
+    padding-right: 50px; 
+}
+header h2{
+    font-family: 'Alegreya', serif;
+    font-size: 72px;
+    text-align: center;
+    line-height: 80px;
+    color: #7B7A7A;
+    padding: 0 120px 0 25px;
+    margin-bottom: 0;
+    clear: both;
+}
+header h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 120px 0 25px;
+}
+#jubilee-austen, #recipe-card{
+    background: #ebebeb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+#rogue-pickings, #vision-board{
+    background: #f9ceb7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+main h3{
+    font-family: 'Alegreya', serif;
+    font-size:30px;
+    padding-bottom: 0;
+    margin: 20px 40px 0 40px;
+}
+.design-comp, .website{
+    padding: 10px 100px;
+    margin: 0 50px;
+}
+.design-comp-img, .website-img{
+    width: 500px;
+    height:400px;
+    border: 10px solid #000000;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 40px 20px 40px;
+}
+div p, .download{
+    font-size:20px;
+    text-align:center;
+    clear:both;
+ }
+h4{
+    font-weight: 700;
+    line-height: 15px;
+    margin: auto 40px 0 40px;
+ }
+.download a{
+    color: #2b2b2b;
+    text-align: center;
+    text-decoration: none;
+}

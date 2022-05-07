@@ -1,0 +1,169 @@
+/***** BASE STYLES *****/
+body{
+font-family: 'Philosopher', sans-serif;
+color: #2b2b2b;
+}
+
+/***** GRID *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header{
+    height: 600px;
+    background: url('../img/computer_pic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color: #c49075;
+    padding: 25px 0 25px 25px;
+    float: left;
+    clear: both;
+}
+nav {
+    text-align: right;
+    padding: 30px 0;
+    float: right; 
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform:uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 122 px;
+    color: #7B7A7A;
+    padding-right: 50px; 
+}
+.top a{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 122 px;
+    color: #2b2b2b;
+}
+header h2{
+    font-family: 'Alegreya', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #7B7A7A;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+    clear: both;
+}
+header h2 span{
+    color: #2b2b2b;
+}
+
+/***** ABOUT *****/
+#about .full-width{
+    padding: 40px 0;
+}
+#about h2{
+    font-family:'Alegreya', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p{
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#about .top a{
+    padding-left: 50px;
+}
+
+/***** WORK *****/
+#work{
+    background: #f9ceb7;
+    text-align: center;
+}
+#work .full-width{
+    padding: 75px 0;
+}
+#work img{
+    padding-bottom: 30px;
+}
+#work h3{
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+#work p{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** FOOTER *****/
+#contact{
+    background: #ebebeb;
+}
+#contact .full-width{
+    padding: 70px 0;
+}
+#contact img#contact-img{
+    margin-left: 50px;
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul, #contact .top a{
+    padding-left: 115px;
+}
+#contact #envelope{
+    padding: 0 10px 0 115px;
+}
+#contact h2{
+    font-family: 'Alegreya', serif;;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header{
+    font-weight: bold;
+    font-size: 29px;
+    line-height:44px;
+    margin: 40px 0 0 0;
+}
+#email{
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px
+}
+#contact ul{
+    list-style: none;
+}
+#contact ul li{
+     display: inline-block;
+}
+#contact ul img{
+    padding-right: 48px;
+}
+#contact .top a{
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 130px;
+}

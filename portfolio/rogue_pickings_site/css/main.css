@@ -1,0 +1,122 @@
+/***** BASE STYLES *****/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    }
+
+/***** GRID *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.third-width{
+    width: 390px;
+    height: auto;
+	float: left;
+    margin: 0;
+}
+
+/***** HEADER *****/
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 20px;
+    text-transform: uppercase;
+    float: left;
+}
+header h1 span{
+    color:#77a466;
+}
+nav{
+    text-align: right;
+    float: right;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 14 px;
+    line-height: 28px;
+    color: #77a466;
+    padding-left: 20px; 
+}
+
+/***** MAIN *****/
+/***** OPENNING *****/
+img{
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    padding:0;
+    margin: 0;
+}
+main h2{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #77a466;
+}
+main p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** INFO *****/
+#info{
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+#section-two{
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+}
+#section-one h3{
+	padding: 10px 0;
+}
+#section-two h3,
+#section-three h3{
+	padding: 10px 30px;
+}
+#section-two p,
+#section-three p{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 30px;
+}
+h3{
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+main ul{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 18px;
+    color: #77a466;
+    padding-left: 0;
+}
+main li{
+    padding: 10px 0;
+}
+
+/***** FOOTER *****/
+footer h2{
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+footer h2 span{
+    font-family: 'Galada', cursive;
+    color:#77a466;
+    font-style: italic;
+    text-transform: lowercase;
+}
